@@ -1,0 +1,35 @@
+@import './scss/colors.scss'; // colors
+@import './scss/size.scss'; // size
+
+// css for swiper nav
+
+.swiper-button-next {
+  width: 35px;
+  height: 35px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+  border-radius: 43px;
+  transform: rotate(-180deg);
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  z-index: 1;
+  transform: translatey(-50%);
+  background-image: url('../public/img/Vector217.svg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 7px; /* Resize the background image to cover the entire container */
+  z-index: 99999;
+  cursor: pointer;
+
+  ::after {
+    content: '˅';
+    padding: 12px 8px;
+    position: absolute;
+  }
+}
+
+.swiper-button-prev {
+  color: #8bb43c !important;
+}
+// css for swiper nav end

@@ -1,0 +1,22 @@
+@import '../scss/colors.scss'; // colors
+@import '../scss/size.scss'; // size
+
+.buttonGreen {
+  padding: 14px 55px;
+  background-color: $button-big;
+  border-radius: 110px;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  // text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,55 @@
+@import './App.scss'; // main scss
+@import './scss/colors.scss'; // colors
+@import './scss/size.scss'; // size
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap'); // fonts
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $background-project;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  white-space: nowrap;
+}
+
+h2 {
+  font-size: $font-logo-title;
+}
+
+h4 {
+  font-size: $font-logo-title-h4;
+}
+
+section {
+  padding: 40px 60px 0px 60px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.buttonSvg {
+  cursor: pointer;
+}
